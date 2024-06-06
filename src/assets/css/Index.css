@@ -1,0 +1,35 @@
+:root {
+  /* Global Variables */
+  --background-color: #23252C;
+  --primary-color: #1A1B21; 
+  --secondary-color: #F5F5F5;
+  --accent-color: #5093E2;
+  --accent-hover-color: hsl(212, 72%, 80%);
+  --text-color: #DCDCDC;
+
+  box-sizing: border-box;
+
+  color: var( --text-color );
+  background-color: var( --background-color );
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, h1, h2, p {
+  padding: 0;
+  margin: 0;
+}
+a {
+  font-weight: 400;
+  color: var( --accent-color );
+  text-decoration: none;
+}
+a:hover {
+  color: var( --accent-hover-color );
+}
+
+
+
