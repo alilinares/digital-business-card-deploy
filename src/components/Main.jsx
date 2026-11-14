@@ -6,12 +6,12 @@ function Main(){
   return(
     <main>
       <section>
-        <h2>About</h2>
-        <p>I love to develop creative web applications and solid software solutions for long-term use. </p>
+        <h2>Summary</h2>
+        <p>I love building web applications and spending time with loved ones.</p>
       </section>
       <section>
         <h2>Interests</h2>
-        <p>Coffee trips. Reading hobbyist. Augmented Reality Projects. Enthusiastic about c++, python, and linux.</p>
+        <p>Enthusiastic about software development, space, books, coffee, and travelling.</p>
       </section>
     </main>
   );

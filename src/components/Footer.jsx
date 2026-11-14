@@ -8,8 +8,8 @@ function Footer(){
       <section className="section-1" >
         <ul>
           <li><a href="https://github.com/alilinares" title="Github Profile" target="_blank" ><i className="fa-brands fa-github social-link"></i></a></li>
-          <li><a href="" title="https://www.twitch.tv/Twitch Channel" target="_blank"><i className="fa-brands fa-twitch social-link"></i></a></li>
-          <li><a href="https://youtube.com" title="Youtube Channel" target="_blank"><i className="fa-brands fa-youtube social-link"></i></a></li>
+          <li><a href="" title="https://www.twitch.tv/supersaiyancoding" target="_blank"><i className="fa-brands fa-twitch social-link"></i></a></li>
+          <li><a href="https://www.youtube.com/@GladiatorBattlegrounds/" title="Youtube Channel" target="_blank"><i className="fa-brands fa-youtube social-link"></i></a></li>
         </ul>
       </section>
       <section className="section-2">
