@@ -1,14 +1,25 @@
-import React from 'react';
-import Avatar from "../assets/images/shadow-me.jpg";
+import avatar from "../assets/images/shadow-me.jpg";
 import '../assets/css/App.css';
+import {useState} from 'react';
+import Heart from "../components/Heart";
 
 function Header(){
+
+  const [liked, setLiked] = useState(false);
+  function handleLike(){
+    setLiked( prev => !prev );
+  }
+
   
   return(
     <header>
-      <div className='avatar'>
-        <img src={Avatar} alt="Picture of my silhouette" width="100%" />
+      <div>
+        <Heart isLiked={liked} handleClick={handleLike} />
+        <div className='avatar'>
+          <img src={avatar} alt="Picture of my silhouette" width="100%" />
+        </div>
       </div>
+
       <div className="meta">
         <h1>Ali Linares</h1>
         <p className="position">Full Stack Web Developer</p>
